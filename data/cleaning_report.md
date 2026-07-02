@@ -13,7 +13,7 @@
 - Corrected grade validity by clipping 0 grades below 0 and 134 grades above 100 to the valid 0-100 range.
 - Checked business ranges for age, time-use fields, attendance, and reaction time; remaining invalid range values found: 0.
 - Checked statistical outliers using the IQR method; 0 outlier values were detected, so no IQR treatment was applied.
-- Saved cleaned dataset to /Users/mohanapravallikapakala/Documents/Dashboard 2/data/Gaming_Academic_Performance_cleaned.csv.
+- Saved cleaned dataset as Gaming_Academic_Performance_cleaned.csv.
 
 ## Final Dataset Shape
 
