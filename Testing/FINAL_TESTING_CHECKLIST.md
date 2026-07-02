@@ -89,7 +89,7 @@ marked below.
 Start the app:
 
 ```bash
-cd "/Users/mohanapravallikapakala/Documents/Dashboard 2"
+cd <your-project-folder>
 streamlit run app.py
 ```
 

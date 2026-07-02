@@ -10,10 +10,9 @@ import numpy as np
 import pandas as pd
 
 
-RAW_DATA_PATH = Path(
-    "/Users/mohanapravallikapakala/Downloads/Data Sets/Gaming_Academic_Performance.csv"
-)
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[1]  
+
+RAW_DATA_PATH = PROJECT_ROOT/ "data" / "Gaming_Academic_Performance.csv"
 CLEAN_DATA_PATH = PROJECT_ROOT / "data" / "Gaming_Academic_Performance_cleaned.csv"
 REPORT_PATH = PROJECT_ROOT / "data" / "cleaning_report.md"
 
