@@ -266,10 +266,14 @@ that a feature causes academic risk.
 
 ## Setup Instructions
 
-### 1. Open The Project
+
+### 1. Clone the repository
 
 ```bash
-cd "/Users/mohanapravallikapakala/Documents/Dashboard 2"
+
+git clone <your-repository-url>
+
+cd <your-project-folder>
 ```
 
 ### 2. Create A Virtual Environment
